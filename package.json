@@ -1,0 +1,31 @@
+{
+  "name": "webrtc-trickle",
+  "version": "1.0.0",
+  "description": "WebRTC Trickle",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win"
+  },
+  "repository": "https://github.com/JarvisChu/ElectronWebRTCTrickle",
+  "keywords": [
+    "Electron",
+    "WebRTC",
+    "Trickle"
+  ],
+  "build": {
+    "appId": "com.tool.app",
+    "win": {
+      "target": [
+        "zip"
+      ]
+    }
+  },
+  "author": "tool",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^20.0.3",
+    "electron-builder": "^23.3.3"
+  },
+  "dependencies": {}
+}
